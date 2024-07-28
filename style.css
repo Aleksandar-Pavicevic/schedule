@@ -1,0 +1,71 @@
+body{
+    height: 100dvh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('media/linear-flat-abstract-lines-pattern_23-2148953381.jpg');
+}
+
+/*     
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} */
+
+#main-container{
+    width: 98vw;
+    height: 85vh;
+}
+
+nav{
+  width: 98vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 0%, 0.90);
+}
+
+.sub-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 0%, 0.6);
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 4rem;
+    width: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
